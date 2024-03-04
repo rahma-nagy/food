@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  
+  .content {
+    flex: 1;
+  }
+ 
+  .sidebar{
+    background-color: #1F263E;
+    border-top-right-radius: 40px;
+  }
+  /* Add media queries for responsiveness if needed */
+  @media (max-width: 768px) {
+    .sidebar {
+      display: none; /* Hide sidebar on smaller screens */
+    }
+  
+    .content {
+      flex: 1; /* Ensure content takes full width on smaller screens */
+    }
+  }
+
+  
